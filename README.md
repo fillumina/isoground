@@ -8,6 +8,6 @@ The tile pixel art images was created using [GitHub - Orama-Interactive/Pixelora
 
 ## Note
 
-- Don't forget to set the inclined tiles a `z-index` to 1 to stay in front of the flat ones.
+- Don't forget to set the inclined tiles `z-index` to 1 to stay in front of the flat ones.
 
-- The trick that makes the player forbid the empty tiles is that that's the only tile for which a `Physics Layer 0` collision shape has been defined. Because the Collision Layer for that physics layer is set to 1 and the player also has 1 that tile cannot be passed by the player.
+- The trick that makes the player being forbidden the empty tiles is that they are the only tiles for which a `Physics Layer 0` collision shape has been defined. Because the Collision Layer for that physics layer is set to 1 and the player also has 1 those tiles cannot be passed by the player.
